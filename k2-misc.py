@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# File name: K2-misc.py
+# File name: k2-misc.py
 # Description: MIDI->OSC bridge for Allen & Heath XONE:K2 controller
 # Author: nik gaffney <nik@fo.am>
 # Created: 2024-09-10
@@ -152,7 +152,7 @@ def midi_setup(label):
 
 
 def main():
-    global osc, k2_send_port
+    global osc, midi
     args = parse_arguments()
     osc = osc_setup(args.osc_host, args.osc_port)
     midi = midi_setup(args.midi_port)
