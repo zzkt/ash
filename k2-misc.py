@@ -145,8 +145,6 @@ def looper():
 
 
 # setup MIDI ports
-# send_port = mido.open_output('send-to-K2')
-
 def midi_setup(label):
     mido.open_input(label, callback=parse_midi_message)
     port = mido.open_output(label)
@@ -157,7 +155,7 @@ def main():
     global osc, k2_send_port
     args = parse_arguments()
     osc = osc_setup(args.osc_host, args.osc_port)
-    # midi = midi_setup('XONE:K2')
+    midi = midi_setup(args.midi_port)
     # event loop
     looper()
 
