@@ -1,0 +1,14 @@
+# -*- mode: org; coding: utf-8; -*-
+#+title: OSC bridge(s) for A&H Equipment
+
+* XONE:K2
+“Xone:K2 is a compact, slim line universal MIDI controller – incorporating a 4 channel soundcard, for use with any DJ software.”
+- MIDI controller
+- output OSC
+- https://www.allen-heath.com/hardware/xone-series/xonek2/
+
+* CQ-20B
+“Ultra-Compact 20-in / 8-out Digital Mixer with Wi-Fi”
+- Digital mixer/stagebox
+- config, control & monitoring via OSC
+- https://www.allen-heath.com/hardware/cq/cq-20b/

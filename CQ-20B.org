@@ -1,0 +1,48 @@
+# -*- mode: org; coding: utf-8; -*-
+#+LaTeX_CLASS: zzkt-article
+#+LateX_Header: \setcounter{secnumdepth}{0}
+#+OPTIONS: toc:2 num:nil html-style:nil
+#+author:
+#+title: Allen & Heath CQ-20B
+
+based on MIDI Protocol V1.2 Issue 2
+
+[[file:img/CQ-20B.png]]
+
+The CQ uses MIDI Channel 1 for all control messaging.
+
+* Available Controls
+** Scene change
+** Soft Keys
+** Mutes
+** Levels
+** Panning/Balance
+** Getting values
+* Reference Tables
+
+** Decimal, HEX, Note conversions
+
+[[file:img/cq_ref_1.png]]
+
+** Soft Key Note and Hex values
+
+[[file:img/cq_ref_2.png]]
+
+** Mutes Parameter Numbers
+
+[[file:img/cq_ref_3.png]]
+
+** Level Parameter Numbers — Inputs and FX to Outputs and FX
+
+[[file:img/cq_ref_4.png]]
+
+** Level Parameter Numbers — Outputs, FX unit input and DCAs
+
+[[file:img/cq_ref_5.png]]
+
+** Pan Balance Parameter Numbers — Inputs and FX to Main LR and Outputs
+
+[[file:img/cq_ref_6.png]]
+
+* Further
+- CQ  MIDI Protocol
