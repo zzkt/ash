@@ -11,6 +11,12 @@ based on MIDI Protocol V1.2 Issue 2
 
 The CQ uses MIDI Channel 1 for all control messaging.
 
+* MIDI setup
+
+#+begin_quote
+The CQ transmits MIDI messages when any changes are made on the unit (or using a connected app ) to any parameters that include NRPN MIDI Control. This means the raw MIDI output from the CQ can be recorded and then ‘played back’ to the CQ later to automate level and mute control.
+#+end_quote
+
 * Available Controls
 ** Scene change
 ** Soft Keys
@@ -44,5 +50,8 @@ The CQ uses MIDI Channel 1 for all control messaging.
 
 [[file:img/cq_ref_6.png]]
 
+
 * Further
-- CQ  MIDI Protocol
+- [[https://www.allen-heath.com/hardware/cq/cq-20b/resources/][CQ-20B Documents]]
+- CQ MIDI Protocol V1.2.0 ([[https://www.allen-heath.com/content/uploads/2024/06/CQ_MIDI_Protocol_V1_2_0_iss2.pdf][pdf]])
+- [[https://www.allen-heath.com/hardware/controllers/midi-control/][A&H MIDI Control]] software
